@@ -22,7 +22,7 @@ fun TabsOne() {
 //    }
 
     LazyColumn(
-        modifier = Modifier.height(400.dp)
+        modifier = Modifier
     ) {
         items(count = pageList.size, itemContent = {
             Card(
